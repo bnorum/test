@@ -4,10 +4,10 @@ import { ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const heroImages = [
-  'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&q=80',
-  'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1920&q=80',
-  'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1920&q=80',
-  'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=1920&q=80',
+  'heroimages/hero1.png',
+  'heroimages/hero2.png',
+  'heroimages/hero3.png',
+  'heroimages/hero4.png',
 ];
 
 export default function Hero() {
@@ -52,18 +52,18 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1 className="mb-6 text-7xl font-bold tracking-tighter md:text-8xl lg:text-9xl">
-            <span className="text-gradient">UNTITLED</span>
+            <span>UNTITLED</span>
           </h1>
           <p className="mb-8 text-xl text-gray-300 md:text-2xl lg:text-3xl">
-            Boston's Premier Music Experience
+            Lorem ipsum dolor sit amet
           </p>
           <p className="mb-12 max-w-2xl text-lg text-gray-400 md:text-xl">
-            Where underground beats meet unforgettable nights. Join the movement.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <Button
             onClick={scrollToEvents}
             size="lg"
-            className="border-2 border-white bg-black px-8 py-6 text-lg font-semibold hover:bg-white hover:text-black"
+            className="border-2 border-white bg-black px-8 py-6 text-lg text-white font-semibold hover:bg-white hover:text-black"
           >
             Explore Events
             <ChevronDown className="ml-2 h-5 w-5 animate-bounce" />

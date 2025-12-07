@@ -55,30 +55,16 @@ const socialLinks = [
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://instagram.com/untitledboston',
-    handle: '@untitledboston',
-    color: 'from-purple-600 to-pink-600',
+    url: 'https://instagram.com/untitled.boston',
+    handle: '@untitled.boston',
+    color: "from-black-400 to-black-500"
   },
   {
-    name: 'Twitter',
-    icon: Twitter,
-    url: 'https://twitter.com/untitledboston',
-    handle: '@untitledboston',
-    color: 'from-blue-400 to-blue-600',
-  },
-  {
-    name: 'Facebook',
-    icon: Facebook,
-    url: 'https://facebook.com/untitledboston',
-    handle: '/untitledboston',
-    color: 'from-blue-600 to-blue-800',
-  },
-  {
-    name: 'Spotify',
+    name: 'TikTok',
     icon: Music2,
-    url: 'https://open.spotify.com/user/untitledboston',
-    handle: 'Untitled Boston',
-    color: 'from-green-500 to-green-700',
+    url: 'https://www.tiktok.com/@untitledboston',
+    handle: '@untitledboston',
+    color: "from-black-400 to-black-500"
   },
 ];
 
@@ -94,7 +80,7 @@ export default function Social() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-5xl font-bold md:text-6xl">
-            <span className="text-gradient">Join The Community</span>
+            <span>Find Us</span>
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
             Follow us for event updates, behind-the-scenes content, and exclusive announcements
@@ -102,7 +88,7 @@ export default function Social() {
         </motion.div>
 
         {/* Social Links */}
-        <div className="mb-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mb-16 grid gap-6 sm:grid-cols-2">
           {socialLinks.map((social, index) => (
             <motion.a
               key={social.name}
@@ -127,7 +113,8 @@ export default function Social() {
           ))}
         </div>
 
-        {/* Photo Gallery */}
+        {/* Im Commenting all of this out until I have a better idea. */}
+        { /*
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -175,7 +162,7 @@ export default function Social() {
             </motion.div>
           ))}
         </div>
-
+        */}
         {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -184,20 +171,24 @@ export default function Social() {
           transition={{ duration: 0.6 }}
           className="mt-16 text-center"
         >
+          {/*
+
           <p className="mb-6 text-xl text-gray-400">
             Don't miss out on the latest updates and exclusive content
           </p>
-          <Button
+            <Button
             size="lg"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+            className="bg-white text-gray-900 hover:bg-gray-200"
             asChild
-          >
-            <a href="https://instagram.com/untitledboston" target="_blank" rel="noopener noreferrer">
+            >
+            <a href="https://instagram.com/untitled.boston" target="_blank" rel="noopener noreferrer">
               <Instagram className="mr-2 h-5 w-5" />
               Follow on Instagram
             </a>
-          </Button>
+            </Button>
+          */}
         </motion.div>
+
       </div>
     </section>
   );

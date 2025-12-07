@@ -35,7 +35,7 @@ export default function Navigation() {
       <nav
         className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-black/90 backdrop-blur-lg shadow-lg shadow-purple-500/10'
+            ? 'bg-black/90 backdrop-blur-lg shadow-lg shadow-black-500/10'
             : 'bg-transparent'
         }`}
       >
@@ -45,7 +45,7 @@ export default function Navigation() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-bold tracking-tighter"
           >
-            <span className="text-gradient">UNTITLED</span>
+            <span>UNTITLED</span>
           </button>
 
           {/* Desktop Navigation */}
@@ -54,14 +54,14 @@ export default function Navigation() {
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm font-medium text-gray-300 transition-colors hover:text-purple-400"
+                className="text-sm font-medium text-gray-300 transition-colors hover:text-white-400"
               >
                 {item.label}
               </button>
             ))}
             <Button
               onClick={() => scrollToSection('#events')}
-              className="bg-purple-600 hover:bg-purple-700"
+              className="bg-gray-300 hover:bg-white-100"
             >
               Get Tickets
             </Button>
@@ -109,13 +109,7 @@ export default function Navigation() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navItems.length * 0.1 }}
               >
-                <Button
-                  onClick={() => scrollToSection('#events')}
-                  size="lg"
-                  className="bg-purple-600 hover:bg-purple-700"
-                >
-                  Get Tickets
-                </Button>
+                
               </motion.div>
             </div>
           </motion.div>

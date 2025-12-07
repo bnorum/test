@@ -19,10 +19,8 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Instagram, href: 'https://instagram.com/untitledboston', label: 'Instagram' },
-  { icon: Twitter, href: 'https://twitter.com/untitledboston', label: 'Twitter' },
-  { icon: Facebook, href: 'https://facebook.com/untitledboston', label: 'Facebook' },
-  { icon: Music2, href: 'https://open.spotify.com/user/untitledboston', label: 'Spotify' },
+  { icon: Instagram, href: 'https://instagram.com/untitled.boston', label: 'Instagram' },
+  { icon: Music2, href: 'https://www.tiktok.com/@untitledboston', label: 'TikTok' },
 ];
 
 export default function Footer() {
@@ -116,27 +114,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Newsletter */}
-        <div className="mt-12 border-t border-gray-800 pt-8">
-          <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
-            <div>
-              <h4 className="mb-2 font-semibold">Stay in the loop</h4>
-              <p className="text-sm text-gray-400">
-                Subscribe to our newsletter for exclusive updates and early access to tickets
-              </p>
-            </div>
-            <div className="flex w-full max-w-md gap-2">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="flex-1 rounded-lg border border-gray-800 bg-gray-900 px-4 py-2 text-sm focus:border-purple-500 focus:outline-none"
-              />
-              <button className="rounded-lg bg-purple-600 px-6 py-2 text-sm font-medium transition-colors hover:bg-purple-700">
-                <Mail className="h-4 w-4" />
-              </button>
-            </div>
-          </div>
-        </div>
+        
 
         {/* Copyright */}
         <div className="mt-8 border-t border-gray-800 pt-8 text-center text-sm text-gray-500">

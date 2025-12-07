@@ -41,10 +41,10 @@ export default function Contact() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-5xl font-bold md:text-6xl">
-            <span className="text-gradient">Get In Touch</span>
+            <span>Get In Touch</span>
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
-            Ready to collaborate? Let's create something unforgettable together.
+            Hey. I'm Untitled. Talk to me.
           </p>
         </motion.div>
 
@@ -223,8 +223,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="mb-1 font-semibold">Email</h4>
-                    <p className="text-gray-400">booking@untitledboston.com</p>
-                    <p className="text-gray-400">info@untitledboston.com</p>
+                    <p className="text-gray-400">contact@untitled.boston</p>
                   </div>
                 </div>
 
@@ -234,7 +233,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="mb-1 font-semibold">Phone</h4>
-                    <p className="text-gray-400">(617) 555-BEAT</p>
+                    <p className="text-gray-400">Available Upon Request</p>
                   </div>
                 </div>
 

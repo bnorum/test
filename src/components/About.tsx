@@ -36,10 +36,10 @@ export default function About() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-5xl font-bold md:text-6xl">
-            <span className="text-gradient">About Untitled</span>
+            <span>About Untitled</span>
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
-            More than just events. We're a movement.
+            Founded in 2022, Untitled made a name for itself by hosting killer events across Boston
           </p>
         </motion.div>
 
@@ -54,19 +54,13 @@ export default function About() {
             <h3 className="mb-6 text-3xl font-bold">Our Story</h3>
             <div className="space-y-4 text-lg text-gray-400">
               <p>
-                Born from Boston's vibrant underground music scene, Untitled started as a passion project 
-                in 2020. What began as intimate warehouse gatherings has evolved into the city's most 
-                sought-after music experience.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nisi ac velit ultricies fringilla. Sed sit amet odio nec odio dictum placerat quis vitae nibh. Etiam facilisis commodo bibendum. Praesent et urna quis neque posuere efficitur. Pellentesque id est metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
               </p>
               <p>
-                We believe music is more than entertainment—it's a catalyst for connection, expression, 
-                and transformation. Every event we host is designed to create those magical moments where 
-                strangers become friends and the music takes you somewhere new.
+                Quisque id quam fringilla, vehicula purus eu, laoreet risus. Vestibulum vitae mattis neque. Maecenas sed vehicula diam. Vestibulum tincidunt purus odio, ac pellentesque tortor molestie id. Cras fringilla mi eu commodo mollis. Pellentesque interdum sem eu nisi molestie elementum. Curabitur fermentum lectus eget libero rhoncus, ac maximus leo hendrerit. In in libero dui. Duis porta condimentum tellus, sed interdum lectus finibus posuere. In ornare scelerisque tortor, et efficitur augue sollicitudin at. Etiam vitae dictum quam.
               </p>
               <p>
-                From electronic beats to hip-hop flows, indie vibes to jazz grooves, we showcase the 
-                diverse sounds that make Boston's music scene truly special. Our commitment to quality, 
-                community, and unforgettable experiences drives everything we do.
+                Mauris ante quam, hendrerit ac nulla vitae, venenatis cursus ipsum. Etiam at purus sed neque lobortis feugiat posuere non enim. Nunc orci ex, elementum ut nulla vel, placerat auctor mauris. Praesent nec urna non justo ultricies mattis id sed erat. Ut eleifend ligula eget velit rutrum finibus. Integer pharetra fringilla ante, nec tristique risus varius nec. Vivamus at urna orci. Nam imperdiet risus ac tellus feugiat ultrices. Cras sem sapien, luctus nec euismod at, efficitur non ex. Vivamus eget molestie erat. Nulla interdum nulla in sapien consectetur, bibendum eleifend nibh elementum. Sed eu odio sit amet odio sagittis efficitur. Suspendisse at tempor libero. Mauris vel suscipit ante. Donec eu nulla tincidunt ex venenatis vestibulum sed et dui. Proin quis mauris ex.
               </p>
             </div>
           </motion.div>
@@ -78,13 +72,13 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="relative h-full min-h-[400px] overflow-hidden rounded-lg">
+            <div className="relative w-full overflow-hidden rounded-lg">
               <img
-                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80"
-                alt="Untitled Events"
-                className="h-full w-full object-cover"
+              src="images/untitledlogo.png"
+              alt="Untitled Events"
+              className="h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute inset-0 " />
             </div>
           </motion.div>
         </div>
@@ -98,7 +92,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group rounded-lg border-2 border-white bg-gray-900/50 p-6 backdrop-blur transition-all hover:bg-white hover:text-black"
+              className="group rounded-lg border-2 border-white bg-gray-900/50 p-6 backdrop-blur transition-all"
             >
               <div className="mb-4 inline-flex rounded-lg border-2 border-white bg-black p-3">
                 <feature.icon className="h-6 w-6 text-white" />
@@ -119,8 +113,8 @@ export default function About() {
         >
           <h3 className="mb-4 text-3xl font-bold">Our Mission</h3>
           <p className="mx-auto max-w-3xl text-xl text-gray-300">
-            To create transformative music experiences that unite Boston's diverse communities, 
-            elevate emerging artists, and push the boundaries of what a night out can be.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis id nisi ac velit ultricies fringilla. Sed sit amet odio nec odio dictum placerat quis vitae nibh.
           </p>
         </motion.div>
       </div>

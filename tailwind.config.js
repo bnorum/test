@@ -9,6 +9,9 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      serif: ['Playfair Display', 'Georgia', 'serif']
+    },
     container: {
       center: true,
       padding: "2rem",
